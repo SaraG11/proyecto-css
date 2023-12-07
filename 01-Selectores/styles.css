@@ -1,0 +1,94 @@
+
+/*SELECTORES*/
+
+/*Selector universal*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 0px; 
+}
+/*sleector de etiqueta*/
+h1{
+    background: green;
+    color: black;
+    padding: 0px;
+}
+a{
+    font-size: 16px;
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+footer a{
+    color: red;
+}
+
+/*selecttro de id son para un solo elemento*/
+#descripcion,
+#titulo{
+    border: 5px solid black;
+    padding: 15px;
+}
+#titulo{
+    background: aqua;
+    border: 2px dashed white;
+}
+
+/*selector classe estos a comparacion de los id si se puden atribur a otros elementos*/
+.parrafo{
+    font-style: italic;
+    /*text-decoration: underline;*/
+    font-weight: bold;
+}
+.parrafo1, .parrafo3{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
+
+/*selector de atributo*/
+
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#usuario form *{
+    display: block;
+}
+input[type="text"]{
+    margin-bottom: 1px;
+    padding: 3px;
+    width: 200px;
+}
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*selectores hijos*/
+
+#menu > li > a{
+    font-size: 16px;
+    color:red;
+    text-decoration: none;
+}
+
+/*prioridad*/
+
+#saludo h1{
+    background: brown;
+}
+h1{
+    background: purple !important;
+}
+

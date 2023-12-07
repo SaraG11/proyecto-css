@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ccc;
+    padding: 40px;
+}
+
+/*#caja1, 
+#caja2 {
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 5px solid red;
+     margenes 
+    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    margin-left: 24px;
+    margin-right: 10px;
+    padding: 25px;
+    padding-bottom: 34px;
+} */
+#cajas{
+    max-width: 1036px;
+    border: 1px solid black;
+}
+.caja{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 5px solid red;
+    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    margin-left: 24px;
+    margin-right: 10px;
+    padding: 25px;
+    padding-bottom: 34px;
+    /*float permite mover un elemento*/
+    float: left;
+    /*float: right;*/
+}
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 230px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}

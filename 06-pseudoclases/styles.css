@@ -1,0 +1,47 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: #eee;
+}
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+ul li:nth-child(2){
+    color: orange;
+
+}
+ul li:last-child{
+    color: grey;
+
+}
+#mi-enlace{
+    font-size: 20px;
+    color: rgb(97, 97, 221);
+}
+#mi-enlace:link{
+    color: red;
+}
+#mi-enlace:visited{
+    color: orangered;
+}
+#mi-enlace:hover{
+    color: blue;
+}
+
+#mi-enlace:active{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="text"]{
+    margin-top: 10px;
+    padding: 1px;
+}
+input[type="text"]:focus{
+    border: 4px dashed orange;
+}
